@@ -42,7 +42,8 @@ body{
 	<h3>JSTL TEST</h3>
 	<a href="jstlTest">Go to JSTL Test</a>
 	
-	
+	<h3>Home Test</h3>
+	<a href="home">HOme Test</a>
 </div>
 </body>
 </html>
