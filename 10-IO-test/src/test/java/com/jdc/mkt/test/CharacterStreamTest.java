@@ -7,18 +7,18 @@ import java.io.File;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import com.jdc.mkt.CharacterStringDemo;
+import com.jdc.mkt.CharacterStreamDemo;
 
 public class CharacterStreamTest {
 
 	
 	//private static  File file;
-	private static CharacterStringDemo demo;
+	private static CharacterStreamDemo demo;
 	
 	@BeforeAll
 	static void createFile() {
 		//file = new File("character_test.txt");
-		demo = new CharacterStringDemo( new File("character_test.txt"));
+		demo = new CharacterStreamDemo( new File("character_test.txt"));
 	}
 	
 	@Test

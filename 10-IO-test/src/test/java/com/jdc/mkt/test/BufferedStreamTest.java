@@ -7,15 +7,15 @@ import java.io.File;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import com.jdc.mkt.BufferedStringDemo;
+import com.jdc.mkt.BufferedStreamDemo;
 
-public class BufferedStringTest {
+public class BufferedStreamTest {
 
-	private static BufferedStringDemo demo;
+	private static BufferedStreamDemo demo;
 	
 	@BeforeAll
 	static void createFile() {
-		demo = new BufferedStringDemo(new File("buffer_test.txt"));
+		demo = new BufferedStreamDemo(new File("buffer_test.txt"));
 	}
 	
 	@Test

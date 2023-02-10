@@ -5,11 +5,11 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.PrintWriter;
 
-public class BufferedStringDemo {
+public class BufferedStreamDemo {
 
 	private File file;
 
-	public BufferedStringDemo(File file) {
+	public BufferedStreamDemo(File file) {
 		this.file = file;
 	}
 

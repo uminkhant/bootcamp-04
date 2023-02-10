@@ -4,12 +4,12 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class CharacterStringDemo {
+public class CharacterStreamDemo {
 
 	private File file;
 	private String text =  "This is test";
 	
-	public CharacterStringDemo(File file) {
+	public CharacterStreamDemo(File file) {
 		this.file = file;
 	}
 		

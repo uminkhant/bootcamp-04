@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class ByteStringDemo {
+public class ByteStreamDemo {
 
 	private File file;
 	byte[] bDatas = "Hello".getBytes();

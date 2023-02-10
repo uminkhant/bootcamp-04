@@ -7,15 +7,15 @@ import java.io.IOException;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import com.jdc.mkt.ByteStringDemo;
+import com.jdc.mkt.ByteStreamDemo;
 
 public class ByteStreamTest {
 	
-	private static ByteStringDemo demo;
+	private static ByteStreamDemo demo;
 	
 	@BeforeAll
 	static void createFile() {
-		demo = new ByteStringDemo();
+		demo = new ByteStreamDemo();
 	}
 	
 	@Test
